@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Basket</servlet-name>
+        <servlet-class>servlet.BasketServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Basket</servlet-name>
+        <url-pattern>/basket</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Summary</servlet-name>
+        <servlet-class>servlet.SummaryServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Summary</servlet-name>
+        <url-pattern>/summary</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

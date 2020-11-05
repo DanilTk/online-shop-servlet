@@ -1,0 +1,5 @@
+validation\CredentialsValidator.class
+servlet\SummaryServlet.class
+servlet\AddressServlet.class
+servlet\LoginServlet.class
+servlet\ProductsServlet.class
