@@ -24,11 +24,4 @@ public class CredentialsValidator {
 
         return false;
     }
-
-  /*  private static boolean containsSpecialCharacter(String password) {
-
-        Pattern pattern = Pattern.compile("[^a-z0-9 ]", Pattern.CASE_INSENSITIVE);
-
-        return pattern.matcher(password).find();
-    }*/
 }
